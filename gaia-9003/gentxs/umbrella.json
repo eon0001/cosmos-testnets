@@ -6,21 +6,21 @@
           "type": "cosmos-sdk/MsgCreateValidator",
           "value": {
             "Description": {
-              "moniker": "Cryptium Labs",
-              "identity": "5A309B5CA189D8B3",
-              "website": "https://cryptium.ch/",
+              "moniker": "Umbrella",
+              "identity": "",
+              "website": "https://umbrellavalidator.com",
               "details": ""
             },
             "Commission": {
-              "rate": "1.0000000000",
-              "max_rate": "1.0000000000",
-              "max_change_rate": "1.0000000000"
+              "rate": "0.1000000000",
+              "max_rate": "0.2000000000",
+              "max_change_rate": "0.0100000000"
             },
-            "delegator_address": "cosmos1eysta0x7quczxkecrm6f36assewqddr0879wgv",
-            "validator_address": "cosmosvaloper1eysta0x7quczxkecrm6f36assewqddr0z23myl",
+            "delegator_address": "cosmos182ujqw3r8p5fffjqkf0rxzj29pg5q96nptk95a",
+            "validator_address": "cosmosvaloper182ujqw3r8p5fffjqkf0rxzj29pg5q96nylzscw",
             "pubkey": {
               "type": "tendermint/PubKeyEd25519",
-              "value": "5I1f+SucFbnCuL5DV5g0xuQws5/oPgKf9UtXRk47+co="
+              "value": "VakMQSPBEuSC9Nwuv8WWhrZVUmH31bUR4+G6pJhkgE8="
             },
             "delegation": {
               "denom": "STAKE",
@@ -42,13 +42,13 @@
         {
           "pub_key": {
             "type": "tendermint/PubKeySecp256k1",
-            "value": "ApMbpXOltvp26VnVYUCmU6jPiIviNUDItOD2nsmRvtKF"
+            "value": "AoIcg6trUVFKLL0aqdEr4GCRsFQo6U5frQ87JuvxEqlu"
           },
-          "signature": "Ts3C1iGqGue5G+Btxmn+qADn0A0JCZDgLncPgEVNDYJHXzIQApFNPmKtuVd6XEFs6iShBWNcB45psIjZGIRIMQ==",
+          "signature": "zdJTX8LD45VC12p1iObJ1SGLBcPgjlb50WL3FqWw4xIkCWLqJzyZntD3ITakEou66YvQVg/e7VUKuWt7b8r59Q==",
           "account_number": "0",
           "sequence": "0"
         }
       ],
-      "memo": "29cca3d3189ea2caf8ea7534d8f791f8f9d34a99@192.168.95.231:26656"
+      "memo": "71eaea15fb6deaa4072c2518c22430fdae5e5d05@127.0.0.1:26656"
     }
 }
